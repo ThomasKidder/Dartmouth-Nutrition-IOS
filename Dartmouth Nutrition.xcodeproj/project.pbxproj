@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65A471BA1BBC7BC0003F2B35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A471B91BBC7BC0003F2B35 /* AppDelegate.swift */; };
+		65A471BC1BBC7BC0003F2B35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A471BB1BBC7BC0003F2B35 /* ViewController.swift */; };
+		65A471BF1BBC7BC0003F2B35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A471BD1BBC7BC0003F2B35 /* Main.storyboard */; };
+		65A471C11BBC7BC0003F2B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A471C01BBC7BC0003F2B35 /* Assets.xcassets */; };
+		65A471C41BBC7BC0003F2B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A471C21BBC7BC0003F2B35 /* LaunchScreen.storyboard */; };
+		65A471CF1BBC7BC0003F2B35 /* Dartmouth_NutritionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A471CE1BBC7BC0003F2B35 /* Dartmouth_NutritionTests.swift */; };
+		65A471DA1BBC7BC0003F2B35 /* Dartmouth_NutritionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A471D91BBC7BC0003F2B35 /* Dartmouth_NutritionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65A471CB1BBC7BC0003F2B35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A471AE1BBC7BC0003F2B35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A471B51BBC7BC0003F2B35;
+			remoteInfo = "Dartmouth Nutrition";
+		};
+		65A471D61BBC7BC0003F2B35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A471AE1BBC7BC0003F2B35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A471B51BBC7BC0003F2B35;
+			remoteInfo = "Dartmouth Nutrition";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65A471B61BBC7BC0003F2B35 /* Dartmouth Nutrition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dartmouth Nutrition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A471B91BBC7BC0003F2B35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65A471BB1BBC7BC0003F2B35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65A471BE1BBC7BC0003F2B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65A471C01BBC7BC0003F2B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65A471C31BBC7BC0003F2B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65A471C51BBC7BC0003F2B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A471CA1BBC7BC0003F2B35 /* Dartmouth NutritionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dartmouth NutritionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A471CE1BBC7BC0003F2B35 /* Dartmouth_NutritionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dartmouth_NutritionTests.swift; sourceTree = "<group>"; };
+		65A471D01BBC7BC0003F2B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A471D51BBC7BC0003F2B35 /* Dartmouth NutritionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dartmouth NutritionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A471D91BBC7BC0003F2B35 /* Dartmouth_NutritionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dartmouth_NutritionUITests.swift; sourceTree = "<group>"; };
+		65A471DB1BBC7BC0003F2B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65A471B31BBC7BC0003F2B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A471C71BBC7BC0003F2B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A471D21BBC7BC0003F2B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65A471AD1BBC7BC0003F2B35 = {
+			isa = PBXGroup;
+			children = (
+				65A471B81BBC7BC0003F2B35 /* Dartmouth Nutrition */,
+				65A471CD1BBC7BC0003F2B35 /* Dartmouth NutritionTests */,
+				65A471D81BBC7BC0003F2B35 /* Dartmouth NutritionUITests */,
+				65A471B71BBC7BC0003F2B35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65A471B71BBC7BC0003F2B35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65A471B61BBC7BC0003F2B35 /* Dartmouth Nutrition.app */,
+				65A471CA1BBC7BC0003F2B35 /* Dartmouth NutritionTests.xctest */,
+				65A471D51BBC7BC0003F2B35 /* Dartmouth NutritionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65A471B81BBC7BC0003F2B35 /* Dartmouth Nutrition */ = {
+			isa = PBXGroup;
+			children = (
+				65A471B91BBC7BC0003F2B35 /* AppDelegate.swift */,
+				65A471BB1BBC7BC0003F2B35 /* ViewController.swift */,
+				65A471BD1BBC7BC0003F2B35 /* Main.storyboard */,
+				65A471C01BBC7BC0003F2B35 /* Assets.xcassets */,
+				65A471C21BBC7BC0003F2B35 /* LaunchScreen.storyboard */,
+				65A471C51BBC7BC0003F2B35 /* Info.plist */,
+			);
+			path = "Dartmouth Nutrition";
+			sourceTree = "<group>";
+		};
+		65A471CD1BBC7BC0003F2B35 /* Dartmouth NutritionTests */ = {
+			isa = PBXGroup;
+			children = (
+				65A471CE1BBC7BC0003F2B35 /* Dartmouth_NutritionTests.swift */,
+				65A471D01BBC7BC0003F2B35 /* Info.plist */,
+			);
+			path = "Dartmouth NutritionTests";
+			sourceTree = "<group>";
+		};
+		65A471D81BBC7BC0003F2B35 /* Dartmouth NutritionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65A471D91BBC7BC0003F2B35 /* Dartmouth_NutritionUITests.swift */,
+				65A471DB1BBC7BC0003F2B35 /* Info.plist */,
+			);
+			path = "Dartmouth NutritionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65A471B51BBC7BC0003F2B35 /* Dartmouth Nutrition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A471DE1BBC7BC0003F2B35 /* Build configuration list for PBXNativeTarget "Dartmouth Nutrition" */;
+			buildPhases = (
+				65A471B21BBC7BC0003F2B35 /* Sources */,
+				65A471B31BBC7BC0003F2B35 /* Frameworks */,
+				65A471B41BBC7BC0003F2B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dartmouth Nutrition";
+			productName = "Dartmouth Nutrition";
+			productReference = 65A471B61BBC7BC0003F2B35 /* Dartmouth Nutrition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65A471C91BBC7BC0003F2B35 /* Dartmouth NutritionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A471E11BBC7BC0003F2B35 /* Build configuration list for PBXNativeTarget "Dartmouth NutritionTests" */;
+			buildPhases = (
+				65A471C61BBC7BC0003F2B35 /* Sources */,
+				65A471C71BBC7BC0003F2B35 /* Frameworks */,
+				65A471C81BBC7BC0003F2B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65A471CC1BBC7BC0003F2B35 /* PBXTargetDependency */,
+			);
+			name = "Dartmouth NutritionTests";
+			productName = "Dartmouth NutritionTests";
+			productReference = 65A471CA1BBC7BC0003F2B35 /* Dartmouth NutritionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65A471D41BBC7BC0003F2B35 /* Dartmouth NutritionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A471E41BBC7BC0003F2B35 /* Build configuration list for PBXNativeTarget "Dartmouth NutritionUITests" */;
+			buildPhases = (
+				65A471D11BBC7BC0003F2B35 /* Sources */,
+				65A471D21BBC7BC0003F2B35 /* Frameworks */,
+				65A471D31BBC7BC0003F2B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65A471D71BBC7BC0003F2B35 /* PBXTargetDependency */,
+			);
+			name = "Dartmouth NutritionUITests";
+			productName = "Dartmouth NutritionUITests";
+			productReference = 65A471D51BBC7BC0003F2B35 /* Dartmouth NutritionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65A471AE1BBC7BC0003F2B35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					65A471B51BBC7BC0003F2B35 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					65A471C91BBC7BC0003F2B35 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 65A471B51BBC7BC0003F2B35;
+					};
+					65A471D41BBC7BC0003F2B35 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 65A471B51BBC7BC0003F2B35;
+					};
+				};
+			};
+			buildConfigurationList = 65A471B11BBC7BC0003F2B35 /* Build configuration list for PBXProject "Dartmouth Nutrition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65A471AD1BBC7BC0003F2B35;
+			productRefGroup = 65A471B71BBC7BC0003F2B35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A471B51BBC7BC0003F2B35 /* Dartmouth Nutrition */,
+				65A471C91BBC7BC0003F2B35 /* Dartmouth NutritionTests */,
+				65A471D41BBC7BC0003F2B35 /* Dartmouth NutritionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65A471B41BBC7BC0003F2B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A471C41BBC7BC0003F2B35 /* LaunchScreen.storyboard in Resources */,
+				65A471C11BBC7BC0003F2B35 /* Assets.xcassets in Resources */,
+				65A471BF1BBC7BC0003F2B35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A471C81BBC7BC0003F2B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A471D31BBC7BC0003F2B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A471B21BBC7BC0003F2B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A471BC1BBC7BC0003F2B35 /* ViewController.swift in Sources */,
+				65A471BA1BBC7BC0003F2B35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A471C61BBC7BC0003F2B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A471CF1BBC7BC0003F2B35 /* Dartmouth_NutritionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A471D11BBC7BC0003F2B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A471DA1BBC7BC0003F2B35 /* Dartmouth_NutritionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65A471CC1BBC7BC0003F2B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65A471B51BBC7BC0003F2B35 /* Dartmouth Nutrition */;
+			targetProxy = 65A471CB1BBC7BC0003F2B35 /* PBXContainerItemProxy */;
+		};
+		65A471D71BBC7BC0003F2B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65A471B51BBC7BC0003F2B35 /* Dartmouth Nutrition */;
+			targetProxy = 65A471D61BBC7BC0003F2B35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65A471BD1BBC7BC0003F2B35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A471BE1BBC7BC0003F2B35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65A471C21BBC7BC0003F2B35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A471C31BBC7BC0003F2B35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65A471DC1BBC7BC0003F2B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65A471DD1BBC7BC0003F2B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65A471DF1BBC7BC0003F2B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dartmouth Nutrition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS98.Dartmouth-Nutrition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65A471E01BBC7BC0003F2B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dartmouth Nutrition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS98.Dartmouth-Nutrition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		65A471E21BBC7BC0003F2B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dartmouth NutritionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS98.Dartmouth-NutritionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dartmouth Nutrition.app/Dartmouth Nutrition";
+			};
+			name = Debug;
+		};
+		65A471E31BBC7BC0003F2B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dartmouth NutritionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS98.Dartmouth-NutritionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dartmouth Nutrition.app/Dartmouth Nutrition";
+			};
+			name = Release;
+		};
+		65A471E51BBC7BC0003F2B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dartmouth NutritionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS98.Dartmouth-NutritionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dartmouth Nutrition";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		65A471E61BBC7BC0003F2B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dartmouth NutritionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS98.Dartmouth-NutritionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dartmouth Nutrition";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65A471B11BBC7BC0003F2B35 /* Build configuration list for PBXProject "Dartmouth Nutrition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A471DC1BBC7BC0003F2B35 /* Debug */,
+				65A471DD1BBC7BC0003F2B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A471DE1BBC7BC0003F2B35 /* Build configuration list for PBXNativeTarget "Dartmouth Nutrition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A471DF1BBC7BC0003F2B35 /* Debug */,
+				65A471E01BBC7BC0003F2B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65A471E11BBC7BC0003F2B35 /* Build configuration list for PBXNativeTarget "Dartmouth NutritionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A471E21BBC7BC0003F2B35 /* Debug */,
+				65A471E31BBC7BC0003F2B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65A471E41BBC7BC0003F2B35 /* Build configuration list for PBXNativeTarget "Dartmouth NutritionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A471E51BBC7BC0003F2B35 /* Debug */,
+				65A471E61BBC7BC0003F2B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65A471AE1BBC7BC0003F2B35 /* Project object */;
+}
